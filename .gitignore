@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Downloaded files
+downloaded_files/
+
+# Large data files
+*.csv
+file.txt
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store 
