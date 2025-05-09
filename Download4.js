@@ -6,7 +6,7 @@ const scdl = require("soundcloud-downloader").default;
 // Configuration
 const CLIENT_ID = "KKzJxmw11tYpCs6T24P4uUYhqmjalG6M";
 const CSV_PATH = "./soundcloud_metadata.csv";
-const DOWNLOAD_DIR = path.join(process.env.HOME, "Desktop", "Soundcloud" , "downloaded_files");
+const DOWNLOAD_DIR = path.join("/Volumes/AUDIO 1", "Soundcloud", "downloaded_files");
 const ERROR_LOG_PATH = path.join(DOWNLOAD_DIR, 'download_errors.log');
 
 const DOWNLOAD_DELAY = 1000; // Delay between batches
